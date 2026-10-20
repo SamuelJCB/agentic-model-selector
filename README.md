@@ -1,5 +1,7 @@
 # Agentic Model Selector
 
+[![tests](https://github.com/SamuelJCB/agentic-model-selector/actions/workflows/tests.yml/badge.svg)](https://github.com/SamuelJCB/agentic-model-selector/actions/workflows/tests.yml) ![Python 3.12](https://img.shields.io/badge/python-3.12-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 A LangGraph agent that chooses a machine learning model **for each individual patient**, uses it to estimate the probability of response under each treatment option, and keeps the deployed model healthy with a self-adaptive monitoring layer built on AutoGluon.
 
 > **Context.** As a Research Engineer in Boston University Machine Learning Research, I built an agentic LangGraph framework that automates model selection for cancer treatment decisions from patient-specific parameters, together with an LLM-plus-AutoGluon layer for monitoring and retraining. That research code and its clinical data are not public. This repository is an independent reimplementation of the same architecture on a **synthetic cohort**, so that anyone can run it, read it, and test it.
