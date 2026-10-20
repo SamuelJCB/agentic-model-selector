@@ -1,0 +1,2 @@
+autogluon.tabular>=1.1
+anthropic>=0.40
